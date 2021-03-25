@@ -1,0 +1,15 @@
+{
+  "name": "js_password_game",
+  "version": "1.0.0",
+  "description": "[] Get a random word from dictionary API\r [] Scramble that word\r [] Send a message in the twith chat with the scrambled word\r [] Chat can attempt to guess the word with !guess command\r [] The correct guess can do !place object on 6 screen spots",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  padding: 2rem;
+  background: rgba(0,0,0,0.2);
+  z-index: 9000;
+}
+
+#randomWord {
+  font-size: 10vmin;
+  color: white;
+  text-shadow: 3px 3px 3px #000;
+
+}
+
+#definition, #guesser {
+  font-size: 4vmin;
+  color: white;
+  text-shadow: 2px 2px 2px #000;
+
+}
+
+.grid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
