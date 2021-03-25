@@ -1,12 +1,12 @@
 # A game about guessing the password through Twitch chat
 
 
-[] Get a random word from dictionary API
+[X] Get a random word from dictionary API
 
-[] Scramble that word
+[X] Scramble that word
 
-[] Send a message in the Twitch chat with the scrambled word
+[X] Send a message in the Twitch chat with the scrambled word
 
-[] Chat can attempt to guess the word with !guess command
+[X] Chat can attempt to guess the word with !guess command
 
-[] The correct guess can do !place object on 6 screen spots
+[X] The correct guess can do !place object on 6 screen spots
